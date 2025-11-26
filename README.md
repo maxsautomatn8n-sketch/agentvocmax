@@ -198,7 +198,7 @@
         const errorEl = document.getElementById('error');
 
         // ✅ URL de votre webhook N8N (déjà configurée)
-        const WEBHOOK_URL = 'https://maxims-autoagents.app.n8n.cloud/webhook/voice-agent';
+        const WEBHOOK_URL = 'https://maxims-autoagents.app.n8n.cloud/webhook-test/voice-agent';
 
         function updateStatus(message, className) {
             statusEl.textContent = message;
